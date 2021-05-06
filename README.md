@@ -13,3 +13,13 @@ Step 6: Sau khi resolve conflicts xong chạy
     $ git rebase --continue
 
 ```
+2. Git update code 
+```
+git fetch -a 
+git checkout origin/name_branch
+```
+
+3. Git rollback change all file
+```
+git checkout .
+```
