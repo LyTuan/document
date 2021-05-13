@@ -23,3 +23,9 @@ git checkout origin/name_branch
 ```
 git checkout .
 ```
+
+4. Ubuntu, if a repository is not secure, we can remove it. 
+```
+sudo apt-add-repository -r ppa:armagetronad-dev/ppa
+sudo apt update -q
+```
