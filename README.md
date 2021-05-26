@@ -29,3 +29,9 @@ git checkout .
 sudo apt-add-repository -r ppa:armagetronad-dev/ppa
 sudo apt update -q
 ```
+5. Change timezone for server ubuntu 
+```
+timedatectl
+timedatectl list-timezones
+sudo timedatectl set-timezone your_time_zone
+```
