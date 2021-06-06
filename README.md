@@ -35,3 +35,10 @@ timedatectl
 timedatectl list-timezones
 sudo timedatectl set-timezone your_time_zone
 ```
+
+6. How to use github
+```
+git add .
+git commit -m "message"
+git push origin master
+```
