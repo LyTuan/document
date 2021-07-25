@@ -42,3 +42,10 @@ git add .
 git commit -m "message"
 git push origin master
 ```
+
+7. Fix the Ubuntu 20.04 cannot share screen in google meet or Team MS
+```
+run $ sudo vi /etc/gdm3/daemon.conf
+Uncomment #WaylandEnable=false
+Reboot.
+```
