@@ -49,3 +49,10 @@ run $ sudo vi /etc/gdm3/config.conf
 Uncomment #WaylandEnable=false
 Reboot.
 ```
+8. Upload 15mb with 10k record to Postgres
+```
+1. Foreach colum in  csv, 
+2. Append vào item1, item2  
+3. Bulk create 5000 record item1, item2 
+4. Reset  item1, item2   <-- Help reduce consume mem because variable store in mem (RAM)
+``` 
